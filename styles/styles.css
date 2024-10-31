@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap; 
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap; 
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #ffffff;
+}
+
+ul {
+  list-style-type:  none;
+}
+
+.page-header {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+/* <img class="background" src="imgs/index-background.png" width="1200" height="485" alt="Задний фон Седоны">
+*/
+.navigation-link {
+  line-height: 21px;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+
+.main-index {
+  color: #000000;
+  background-color: #ffffff;
+  background-image: url("../imgs/index-background.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.advantages-list {
+  background-color: #ffffff;
+  text-align: left;
+}
+
+.advantages-title {
+  color: #ffffff;
+  text-align: center;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.advantages-description {
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+#advantages-item-1 {
+  width: 400px;
+  height: 385px;
+  background-color: #82b3d3;
+  text-align: center;
+  vertical-align: middle;
+}
