@@ -46,14 +46,15 @@ ul {
 }
 
 .navigation-list {
-  margin: 0;
+  margin-top: 0;
   padding: 0;
   display: flex;
 }
 
 .navigation-item {
   padding: 10px;
-  margin: 10px;
+  padding-top: 0;
+  margin: 0;
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -159,14 +160,6 @@ ul {
   vertical-align: bottom;
 }
 
-.advantages-transparent-1 {
-  background-color: rgba(131, 179, 211, 0.12);
-}
-
-.advantages-transparent-2 {
-  background-color: rgba(131, 179, 211, 0.20);
-}
-
 .advantages-title {
   color: black;
   text-align: center;
@@ -196,9 +189,11 @@ ul {
 }
 
 .advantages-two-list {
-  display: flex;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
 .advantages-two-title {
@@ -224,6 +219,18 @@ ul {
   font-size: 18px;
   line-height: 21px;
   text-align: center;
+}
+
+.advantages-transparent-1 {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-transparent-2 {
+  background-color: rgba(131, 179, 211, 0.20);
+}
+
+.best-hotels {
+  margin: 100px;
 }
 
 .subscription {
@@ -285,9 +292,37 @@ ul {
   font-weight: 700;
 }
 
+.email-form {
+  display: flex;
+  width: 682px;
+  height: 52px;
+}
+
+.email-input {
+  display: flex;
+  width: 452px;
+  height: 46px;
+}
+
+.email-button {
+  display: flex;
+  width: 232px;
+  height: 52px;
+}
+
+.page-footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  height: 120px;
+  margin: 0 auto;
+}
+
 .footer-social-list {
   gap: 10px;
   display: flex;
+  margin-left: 20px;
 }
 
 .footer-contacts-phone {
@@ -299,4 +334,9 @@ ul {
   text-transform: uppercase;
   text-decoration: none;
   color: #000000;
+}
+
+.button.html-academy {
+  margin-right: 70px;
+  margin-top: 6px;
 }
