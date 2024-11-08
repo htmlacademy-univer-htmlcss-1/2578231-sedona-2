@@ -4,34 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    <header class="page-header">
-        <nav class="navigation">
-          <ul class="navigation-list">
-            <li class="navigation-item">
-              <a class="navigation-link" href="index.html">Главная</a>
-            </li>
-            <li class="navigation-item">
-              <a class="navigation-link" href="about.html">О Седоне</a>
-            </li>
-            <li class="navigation-item">
-              <a class="navigation-link" href="catalog.html">Гостиницы</a>
-            </li>
-          </ul>
-          <ul class="navigation-list navigation-user">
-            <li class="navigation-item">
-              <span class="visually-hidden" href="">Поиск</a>
-            </li>
-            <li class="navigation-item">
-              <span class="visually-hidden" href="">Понравились</a>
-            </li>
-            <li class="navigation-item">
-              <span class="visually-hidden" href="">Хочу сюда!</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
+  <header class="page-header">
+    <nav class="navigation">
+      <ul class="navigation-list">
+       <li class="navigation-item">
+          <img src="imgs/logo.svg" width="138" height="64" alt="Лого">
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="index.html">Главная</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="about.html">О Седоне</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="catalog.html">Гостиницы</a>
+        </li>
+      </ul>
+      <ul class="navigation-list navigation-user">
+        <li class="navigation-item">
+          <a class="navigation-link" href="">Поиск</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="">Понравились</a>
+        </li>
+        <li class="navigation-item">
+          <button class="navigation-button" href="">Хочу сюда!</button>
+        </li>
+      </ul>
+    </nav>
+  </header>
       <main>
         <section class="options">
             <h1>
@@ -71,6 +75,7 @@
           </section>
       </main>
       <footer class="page-footer">
+        <div class="page-footer-container">
         <section class="footer-social">
           <ul class="footer-social-list">
             <li class="footer-social-item">
@@ -91,9 +96,10 @@
           </ul>
         </section>
         <a class="footer-contacts-phone" href="tel:+78128121212">+7(812)812-12-12</a>
-        <a class="button" href="https://htmlacademy.ru/">
+        <a class="button html-academy" href="https://htmlacademy.ru/">
           <img src="imgs/logo_htmlacademy.svg">
         </a>
+        </div>
       </footer>
 </body>
 </html>
