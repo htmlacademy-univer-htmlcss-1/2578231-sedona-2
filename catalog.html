@@ -1,79 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles/styles.css">
-</head>
-<body>
-  <header class="page-header">
-    <nav class="navigation">
-      <ul class="navigation-list">
-       <li class="navigation-item">
-          <img src="imgs/logo.svg" width="138" height="64" alt="Лого">
-        </li>
+  </head>
+  <body>
+    <header class="page-header">
+      <nav class="navigation">
+        <ul class="navigation-list">
         <li class="navigation-item">
-          <a class="navigation-link" href="index.html">Главная</a>
-        </li>
-        <li class="navigation-item">
-          <a class="navigation-link" href="about.html">О Седоне</a>
-        </li>
-        <li class="navigation-item">
-          <a class="navigation-link" href="catalog.html">Гостиницы</a>
-        </li>
-      </ul>
-      <ul class="navigation-list navigation-user">
-        <li class="navigation-item">
-          <a class="navigation-link" href="">Поиск</a>
-        </li>
-        <li class="navigation-item">
-          <a class="navigation-link" href="">Понравились</a>
-        </li>
-        <li class="navigation-item">
-          <button class="navigation-button" href="">Хочу сюда!</button>
-        </li>
-      </ul>
-    </nav>
-  </header>
-      <main>
-        <section class="options">
-            <h1>
-                Гостиницы Седоны
-                <img src="imgs/index-background.png" width="1200" height="412" alt="Седона">
-            </h1>
-        </section>
-        <section class="hotels">
-            <ul class="hotels-list">
-                <li class="hotels-item">
-                    <img src="imgs/hotel-1.jpg" width="312" height="200" alt="Отель">
-                    <h2>Amara Resort and Spa</h2>
-                </li>
-                <li class="hotels-item">
-                    <img src="imgs/hotel-2.jpg" width="312" height="200" alt="Отель">
-                    <h2>Villas at Poco Diablo</h2>
-                </li>
-                <li class="hotels-item">
-                    <img src="imgs/hotel-3.jpg" width="312" height="200" alt="Отель">
-                    <h2>Desert Quail Inn</h2>
-                </li>
-                <li class="hotels-item">
-                    <img src="imgs/hotel-4.jpg" width="312" height="200" alt="Отель">
-                    <h2>GreenTree Inn</h2>
-                </li>
-            </ul>
-        </section>
-
+            <img src="imgs/logo.svg" width="138" height="64" alt="Лого">
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="index.html">Главная</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="about.html">О Седоне</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="catalog.html">Гостиницы</a>
+          </li>
         </ul>
-        <section class="subscription">
-            <h2 class="visually-hidden">Подпишитесь на рассылку</h2>
-            <p class="hidden-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
-            <form class="email-form" action="https://echo.htmlacademy.ru/" method="post">
-              <input type="text" name="email-user" placeholder="Ваш e-mail">
-              <button class="button" type="submit">Подписаться</button>
-            </form>
-          </section>
-      </main>
+        <ul class="navigation-list navigation-user">
+          <li class="navigation-item">
+            <a class="navigation-link" href="">Поиск</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="">Понравились</a>
+          </li>
+          <li class="navigation-item">
+            <button class="navigation-button" href="">Хочу сюда!</button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main-container main-index">
+      <section class="options">
+        <h1> Гостиницы Седоны
+          <img src="imgs/index-background.jpg" width="1200" height="412" alt="Седона">
+        </h1>
+      </section>
+      <section class="hotels">
+        <ul class="hotels-list">
+          <li class="hotels-item">
+            <img src="imgs/hotel-1.jpg" width="312" height="200" alt="Отель">
+            <h2>Amara Resort and Spa</h2>
+          </li>
+          <li class="hotels-item">
+            <img src="imgs/hotel-2.jpg" width="312" height="200" alt="Отель">
+            <h2>Villas at Poco Diablo</h2>
+          </li>
+          <li class="hotels-item">
+            <img src="imgs/hotel-3.jpg" width="312" height="200" alt="Отель">
+            <h2>Desert Quail Inn</h2>
+          </li>
+          <li class="hotels-item">
+            <img src="imgs/hotel-4.jpg" width="312" height="200" alt="Отель">
+            <h2>GreenTree Inn</h2>
+          </li>
+        </ul>
+      </section>
+      </ul>
+      <section class="subscription">
+        <h2 class="subscription-header">Подпишитесь на рассылку</h2>
+        <p class="subscription-text">Только полезная информация и никакого спама, <br />честное бойскаутское!</p>
+        <form class="email-form" action="https://echo.htmlacademy.ru/" method="post">
+          <input class="email-input"type="text" name="email-user" placeholder="Ваш e-mail">
+          <button class="email-button button" type="submit">Подписаться</button>
+        </form>
+      </section>
+    </main>
       <footer class="page-footer">
         <div class="page-footer-container">
         <section class="footer-social">
@@ -101,5 +99,5 @@
         </a>
         </div>
       </footer>
-</body>
+  </body>
 </html>
